@@ -1,205 +1,223 @@
 
 WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT
-$ mkdir novo-aula-git
+    
+    $ mkdir novo-aula-git
 
 WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT
-$ cd nova-aula-git
+
+    $ cd nova-aula-git
 
 WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git
-$ mkdir bootstrap
+
+    $ mkdir bootstrap
 
 WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git
-$ mkdir css
+
+    $ mkdir css
 
 WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git
-$ mkdir js
+
+    $ mkdir js
 
 WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
-$ git status
-On branch master
 
+    $ git status
+    
+On branch master
 No commits yet
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
 
-        bootstrap/
-        js/
+    bootstrap/
+    js/
 
 nothing added to commit but untracked files present (use "git add" to track)
 
 WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
-$ git add .
-warning: LF will be replaced by CRLF in bootstrap/css/bootstrap-theme.css.
+
+    $ git add .
+
+  warning: LF will be replaced by CRLF in bootstrap/css/bootstrap-theme.css.
 The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in bootstrap/css/bootstrap-theme.min.css.
+  warning: LF will be replaced by CRLF in bootstrap/css/bootstrap-theme.min.css.
 The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in bootstrap/css/bootstrap.css.
+  warning: LF will be replaced by CRLF in bootstrap/css/bootstrap.css.
 The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in bootstrap/css/bootstrap.min.css.
+  warning: LF will be replaced by CRLF in bootstrap/css/bootstrap.min.css.
 The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in bootstrap/fonts/glyphicons-halflings-regular.svg.
+  warning: LF will be replaced by CRLF in bootstrap/fonts/glyphicons-halflings-regular.svg.
 The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in bootstrap/js/bootstrap.js.
+  warning: LF will be replaced by CRLF in bootstrap/js/bootstrap.js.
 The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in bootstrap/js/bootstrap.min.js.
+  warning: LF will be replaced by CRLF in bootstrap/js/bootstrap.min.js.
 The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in bootstrap/js/npm.js.
+  warning: LF will be replaced by CRLF in bootstrap/js/npm.js.
 The file will have its original line endings in your working directory
-warning: LF will be replaced by CRLF in js/jquery-3.4.1.min.js.
+  warning: LF will be replaced by CRLF in js/jquery-3.4.1.min.js.
 The file will have its original line endings in your working directory
 
 WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
-$ git status
+
+  $ git status
+  
 On branch master
-
-No commits yet
-
-WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
-$ git status
-On branch master
-
 No commits yet
 
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
-        new file:   bootstrap/css/bootstrap-theme.css
-        new file:   bootstrap/css/bootstrap-theme.css.map
-        new file:   bootstrap/css/bootstrap-theme.min.css
-        new file:   bootstrap/css/bootstrap-theme.min.css.map
-        new file:   bootstrap/css/bootstrap.css
-        new file:   bootstrap/css/bootstrap.css.map
-        new file:   bootstrap/css/bootstrap.min.css
-        new file:   bootstrap/css/bootstrap.min.css.map
-        new file:   bootstrap/fonts/glyphicons-halflings-regular.eot
-        new file:   bootstrap/fonts/glyphicons-halflings-regular.svg
-        new file:   bootstrap/fonts/glyphicons-halflings-regular.ttf
-        new file:   bootstrap/fonts/glyphicons-halflings-regular.woff
-        new file:   bootstrap/fonts/glyphicons-halflings-regular.woff2
-        new file:   bootstrap/js/bootstrap.js
-        new file:   bootstrap/js/bootstrap.min.js
-        new file:   bootstrap/js/npm.js
-        new file:   js/jquery-3.4.1.min.js
-        new file:   js/main.js
+  
+          new file:   bootstrap/css/bootstrap-theme.css
+          new file:   bootstrap/css/bootstrap-theme.css.map
+          new file:   bootstrap/css/bootstrap-theme.min.css
+          new file:   bootstrap/css/bootstrap-theme.min.css.map
+          new file:   bootstrap/css/bootstrap.css
+          new file:   bootstrap/css/bootstrap.css.map
+          new file:   bootstrap/css/bootstrap.min.css
+          new file:   bootstrap/css/bootstrap.min.css.map
+          new file:   bootstrap/fonts/glyphicons-halflings-regular.eot
+          new file:   bootstrap/fonts/glyphicons-halflings-regular.svg
+          new file:   bootstrap/fonts/glyphicons-halflings-regular.ttf
+          new file:   bootstrap/fonts/glyphicons-halflings-regular.woff
+          new file:   bootstrap/fonts/glyphicons-halflings-regular.woff2
+          new file:   bootstrap/js/bootstrap.js
+          new file:   bootstrap/js/bootstrap.min.js
+          new file:   bootstrap/js/npm.js
+          new file:   js/jquery-3.4.1.min.js
+          new file:   js/main.js
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        "Instru\303\247\303\265es.PNG"
+  
+    "Instru\303\247\303\265es.PNG"
 
 
 WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
-$ git add .
+
+    $ git add .
 
 WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
-$ git status
+
+    $ git status
+    
 On branch master
-
 No commits yet
-
 
 WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
 $ git commit -m 'Abrindo nova aula de Treinamento, já com pastas'
 
-*** Please tell me who you are.
+    *** Please tell me who you are.
 
-Run
+    Run
 
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"
+      git config --global user.email "you@example.com"
+      git config --global user.name "Your Name"
 
-to set your account's default identity.
-Omit --global to set the identity only in this repository.
+    to set your account's default identity.
+    Omit --global to set the identity only in this repository.
 
-fatal: unable to auto-detect email address (got 'WAGNER@WagnerBarros.(none)')
-
-WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
-$ git config user.email 'wagnerhamamellis@gmail.com'
+    fatal: unable to auto-detect email address (got 'WAGNER@WagnerBarros.(none)')
 
 WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
-$ git status
+
+    $ git config user.email 'wagnerhamamellis@gmail.com'
+
+WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
+
+    $ git status
+
 On branch master
-
 No commits yet
 
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
-        new file:   "Instru\303\247\303\265es.PNG"
-        new file:   bootstrap/css/bootstrap-theme.css
-        new file:   bootstrap/css/bootstrap-theme.css.map
-        new file:   bootstrap/css/bootstrap-theme.min.css
-        new file:   bootstrap/css/bootstrap-theme.min.css.map
-        new file:   bootstrap/css/bootstrap.css
-        new file:   bootstrap/css/bootstrap.css.map
-        new file:   bootstrap/css/bootstrap.min.css
-        new file:   bootstrap/css/bootstrap.min.css.map
-        new file:   bootstrap/fonts/glyphicons-halflings-regular.eot
-        new file:   bootstrap/fonts/glyphicons-halflings-regular.svg
-        new file:   bootstrap/fonts/glyphicons-halflings-regular.ttf
-        new file:   bootstrap/fonts/glyphicons-halflings-regular.woff
-        new file:   bootstrap/fonts/glyphicons-halflings-regular.woff2
-        new file:   bootstrap/js/bootstrap.js
-        new file:   bootstrap/js/bootstrap.min.js
-        new file:   bootstrap/js/npm.js
-        new file:   js/jquery-3.4.1.min.js
-        new file:   js/main.js
-
+  
+            new file:   "Instru\303\247\303\265es.PNG"
+            new file:   bootstrap/css/bootstrap-theme.css
+            new file:   bootstrap/css/bootstrap-theme.css.map
+            new file:   bootstrap/css/bootstrap-theme.min.css
+            new file:   bootstrap/css/bootstrap-theme.min.css.map
+            new file:   bootstrap/css/bootstrap.css
+            new file:   bootstrap/css/bootstrap.css.map
+            new file:   bootstrap/css/bootstrap.min.css
+            new file:   bootstrap/css/bootstrap.min.css.map
+            new file:   bootstrap/fonts/glyphicons-halflings-regular.eot
+            new file:   bootstrap/fonts/glyphicons-halflings-regular.svg
+            new file:   bootstrap/fonts/glyphicons-halflings-regular.ttf
+            new file:   bootstrap/fonts/glyphicons-halflings-regular.woff
+            new file:   bootstrap/fonts/glyphicons-halflings-regular.woff2
+            new file:   bootstrap/js/bootstrap.js
+            new file:   bootstrap/js/bootstrap.min.js
+            new file:   bootstrap/js/npm.js
+            new file:   js/jquery-3.4.1.min.js
+            new file:   js/main.js
 
 WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
-$ git commit -m 'Abrindo nova aula de Treinamento, já com pastas'
+
+    $ git commit -m 'Abrindo nova aula de Treinamento, já com pastas'
+
 [master (root-commit) 16244ec] Abrindo nova aula de Treinamento, já com pastas
- 19 files changed, 10357 insertions(+)
- create mode 100644 "Instru\303\247\303\265es.PNG"
- create mode 100644 bootstrap/css/bootstrap-theme.css
- create mode 100644 bootstrap/css/bootstrap-theme.css.map
- create mode 100644 bootstrap/css/bootstrap-theme.min.css
- create mode 100644 bootstrap/css/bootstrap-theme.min.css.map
- create mode 100644 bootstrap/css/bootstrap.css
- create mode 100644 bootstrap/css/bootstrap.css.map
- create mode 100644 bootstrap/css/bootstrap.min.css
- create mode 100644 bootstrap/css/bootstrap.min.css.map
- create mode 100644 bootstrap/fonts/glyphicons-halflings-regular.eot
- create mode 100644 bootstrap/fonts/glyphicons-halflings-regular.svg
- create mode 100644 bootstrap/fonts/glyphicons-halflings-regular.ttf
- create mode 100644 bootstrap/fonts/glyphicons-halflings-regular.woff
- create mode 100644 bootstrap/fonts/glyphicons-halflings-regular.woff2
- create mode 100644 bootstrap/js/bootstrap.js
- create mode 100644 bootstrap/js/bootstrap.min.js
- create mode 100644 bootstrap/js/npm.js
- create mode 100644 js/jquery-3.4.1.min.js
- create mode 100644 js/main.js
+
+     19 files changed, 10357 insertions(+)
+       create mode 100644 "Instru\303\247\303\265es.PNG"
+       create mode 100644 bootstrap/css/bootstrap-theme.css
+       create mode 100644 bootstrap/css/bootstrap-theme.css.map
+       create mode 100644 bootstrap/css/bootstrap-theme.min.css
+       create mode 100644 bootstrap/css/bootstrap-theme.min.css.map
+       create mode 100644 bootstrap/css/bootstrap.css
+       create mode 100644 bootstrap/css/bootstrap.css.map
+       create mode 100644 bootstrap/css/bootstrap.min.css
+       create mode 100644 bootstrap/css/bootstrap.min.css.map
+       create mode 100644 bootstrap/fonts/glyphicons-halflings-regular.eot
+       create mode 100644 bootstrap/fonts/glyphicons-halflings-regular.svg
+       create mode 100644 bootstrap/fonts/glyphicons-halflings-regular.ttf
+       create mode 100644 bootstrap/fonts/glyphicons-halflings-regular.woff
+       create mode 100644 bootstrap/fonts/glyphicons-halflings-regular.woff2
+       create mode 100644 bootstrap/js/bootstrap.js
+       create mode 100644 bootstrap/js/bootstrap.min.js
+       create mode 100644 bootstrap/js/npm.js
+       create mode 100644 js/jquery-3.4.1.min.js
+       create mode 100644 js/main.js
 
 WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
-$ git status
+
+    $ git status
+
 On branch master
 nothing to commit, working tree clean
 
 WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
-$ git remote add origin https://github.com/Hamamellis/nova-aula-git.git
+
+    $ git remote add origin https://github.com/Hamamellis/nova-aula-git.git
 
 WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
-$ git status
+
+    $ git status
+
 On branch master
 nothing to commit, working tree clean
 
 WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
-$ git push -u origin master
-Enumerating objects: 26, done.
-Counting objects: 100% (26/26), done.
-Delta compression using up to 12 threads
-Compressing objects: 100% (26/26), done.
-Writing objects: 100% (26/26), 348.67 KiB | 7.12 MiB/s, done.
-Total 26 (delta 5), reused 0 (delta 0), pack-reused 0
-remote: Resolving deltas: 100% (5/5), done.
-git staTo https://github.com/Hamamellis/nova-aula-git.git
- * [new branch]      master -> master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+    $ git push -u origin master
+
+      Enumerating objects: 26, done.
+      Counting objects: 100% (26/26), done.
+      Delta compression using up to 12 threads
+      Compressing objects: 100% (26/26), done.
+      Writing objects: 100% (26/26), 348.67 KiB | 7.12 MiB/s, done.
+      Total 26 (delta 5), reused 0 (delta 0), pack-reused 0
+      remote: Resolving deltas: 100% (5/5), done.
+      git staTo https://github.com/Hamamellis/nova-aula-git.git
+       * [new branch]      master -> master
+      Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
+
 $ git status
+
 On branch master
 Your branch is up to date with 'origin/master'.
 
-nothing to commit, working tree clean
+nothing to commit, working tree clean...
 
-WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
-$
