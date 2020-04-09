@@ -1,0 +1,122 @@
+WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
+$ git push
+Enumerating objects: 11, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 807 bytes | 807.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/Hamamellis/nova-aula-git.git
+   d867bbc..b773a9b  master -> master
+
+WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   css/style.css
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
+$ git add .
+
+WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   css/style.css
+        modified:   index.html
+
+
+WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
+$ git commit -m 'Estruturando arquivos style.css e index.html'
+[master 1f6dfb3] Estruturando arquivos style.css e index.html
+ 2 files changed, 72 insertions(+)
+
+WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
+$ git sttus
+git: 'sttus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 1.06 KiB | 1.06 MiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Hamamellis/nova-aula-git.git
+   b773a9b..1f6dfb3  master -> master
+
+WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
+$ ls
+ bootstrap/   index.html                Instruções.PNG   README.md
+ css/        'Instruções no Bash.txt'   js/
+
+WAGNER@WagnerBarros MINGW64 /e/Projetos VSCode/CURSO GIT/nova-aula-git (master)
+$ git log
+commit 1f6dfb355d9076e00029f09842b9d1d5f5e27b73 (HEAD -> master, origin/master)
+Author: Hamamellis <wagnerhamamellis@gmail.com>
+Date:   Thu Apr 9 10:12:18 2020 -0300
+
+    Estruturando arquivos style.css e index.html
+
+commit b773a9b8fb92fa7e8a05498658a1723fba45b18f
+Merge: 7f50605 d867bbc
+Author: Hamamellis <wagnerhamamellis@gmail.com>
+Date:   Thu Apr 9 09:11:39 2020 -0300
+
+    Merge branch 'master' of https://github.com/Hamamellis/nova-aula-git
+
+commit 7f5060517625bead624fa7bc032d0f67dc231469
+Author: Hamamellis <wagnerhamamellis@gmail.com>
+Date:   Thu Apr 9 08:52:35 2020 -0300
+
+    Criando arquivos index.html e nas pastas css/ o arquivo style.css e js/ o arquivo script.js
+
+commit d867bbc991481bc25cb5221168715bcd94c41760
+Author: Hamamellis <62901780+Hamamellis@users.noreply.github.com>
+Date:   Thu Apr 9 08:39:56 2020 -0300
