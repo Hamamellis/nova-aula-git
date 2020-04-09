@@ -1,0 +1,17 @@
+.titulo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    border-color: yellow;
+    text-align: center;
+}
+
+.table-striped{
+    background-color: aquamarine;
+    margin: 25px;
+    padding: 25px;
+}
+
+body{
+    margin: 20px;
+    padding-right: 50px;
+}
